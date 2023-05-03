@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFE"
+    tools:context=".SegundaTela">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#20630D"
+        android:drawableTint="#2196F3"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#2196F3"
+        android:shadowColor="#2196F3"
+        android:text="Continuar"
+        android:textColor="#000000"
+        android:textColorHighlight="#F7FCFF"
+        android:textColorHint="#2196F3"
+        android:textColorLink="#2196F3"
+        android:textSize="18sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.422"
+        app:rippleColor="#2196F3"
+        app:strokeColor="#000000"
+        tools:ignore="UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="213dp"
+        android:layout_height="63dp"
+        android:fontFamily="sans-serif-black"
+        android:text="RECICLAGEM"
+        android:textColor="#2B6A2C"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="347dp"
+        android:layout_height="167dp"
+        android:text="Os lixões das grandes cidades são um dos maiores problemas urbanos, capazes de causar danos ambientais, sociais e políticos em dimensões assustadoras. Nesses locais, o lixo é despejado pelos caminhões de coleta diretamente no solo, que não recebe nenhuma proteção ou cuidado técnico."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="344dp"
+        android:layout_height="155dp"
+        android:text="Os lixões atraem muitas pessoas em busca de trabalho, na função de catadores de lixo. Eles buscam qualquer material que possa ser reaproveitado para reciclagem. Essas pessoas que agem diretamente nos lixos estão sempre sujeitas a se contaminar, inclusive por não usar nenhum equipamento de segurança."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="361dp"
+        android:layout_height="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gui_rc"
+        tools:layout_editor_absoluteY="496dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
